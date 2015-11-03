@@ -2,13 +2,13 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://sophiahuynh.com/
+url: sophiahuynh.com
 title: Sophia Huynh
 email: sph.huynh@gmail.com
 author: Sophia Huynh
 description: > # "Just a place to document my work
 copyright: 'Copyright &copy; 2015 Sophia Huynh. All Rights Reserved.'
-credits: 'Credits: Landing Page <a href="http://ironsummitmedia.github.io/startbootstrap-landing-page/>
+credits: 'Credits: Landing Page <a href="http://ironsummitmedia.github.io/startbootstrap-landing-page"/>'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
