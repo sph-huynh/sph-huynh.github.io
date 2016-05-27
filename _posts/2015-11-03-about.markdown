@@ -1,8 +1,14 @@
 ---
 layout: default
-img: itaewon2.jpg
-category: Services
-title: Photography:<br>South Korea
+img: meUnihackMini.png 
+category: Photography
+title: Photography and things
 description: |
 ---
- Someday in the future, this website will actually have somthing on it. I promise.
+So there are things that I enjoy - like photography - all photos on this website are taken by me. So I say that I like arts, and I really do mean it. It's not something I get a lot of time to do, but the arts are something I do very much enjoy and mean a lot to me.
+                  
+I've been getting into videography these days, though something it has made me realise is that despite my great love for music, I am yet to get to the stage where I have the patience and time to make my own music - for my enjoyment, or for these videos.
+
+This is one that I've made below, it means absolutely nothing, but I enjoyed the process of making it very much
+
+[![Be the Change](/img/photography/beTheChange.png)](https://www.youtube.com/watch?v=16Z-D1U_rEQ)
