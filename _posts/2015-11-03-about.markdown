@@ -1,14 +1,14 @@
 ---
 layout: default
 category: Photography
-title: Photography and things
-description: |
+img: meUnihackMini.png
+title: The Melbourne Tech Community
+description: hackathons and things
 ---
-So there are things that I enjoy - like photography - all photos on this website are taken by me. So I say that I like arts, and I really do mean it. It's not something I get a lot of time to do, but the arts are something I do very much enjoy and mean a lot to me.
-                  
-I've been getting into videography these days, though something it has made me realise is that despite my great love for music, I am yet to get to the stage where I have the patience and time to make my own music - for my enjoyment, or for these videos.
+I've had my fair share of adventures in my life - well, not an outstanding amount - but enough to say that I think I've lived my life appropriately in the time I have been alive.
 
-This is one that I've made below, it means absolutely nothing, but I enjoyed the process of making it very much
+2016 has been the year that I get more in touch with what I'm studying - an area that I haven't really had much time to explore considering the other projects I have been a part of thus far, and an area that it has brought me to are hackathons, and the Melbourne Tech Community.
 
-<a href="https://www.youtube.com/watch?v=16Z-D1U_rEQ" target="_blank"><img src="/img/photography/beTheChange.png"
-alt="Be the Change" width="80%" height="80%" border="10" /></a>
+UNIHACK is something that I've taken on board this year, it's brought me to meet great people, I've found areas where I think I may want to go after my university years, and that's a great thing despite feeling absolutely lost in life.
+
+UNIHACK has become a project I'm holding quite close, and I hope to see it grow even more in the future.
