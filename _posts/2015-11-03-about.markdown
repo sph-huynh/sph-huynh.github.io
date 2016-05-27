@@ -1,6 +1,7 @@
 ---
 layout: default
-img: meUnihackMini.png 
+img: <a href="https://www.youtube.com/watch?v=16Z-D1U_rEQ" target="_blank"><img src="/img/photography/beTheChange.png"
+alt="Be the Change" width="240" height="180" border="10" /></a>
 category: Photography
 title: Photography and things
 description: |
@@ -11,4 +12,5 @@ I've been getting into videography these days, though something it has made me r
 
 This is one that I've made below, it means absolutely nothing, but I enjoyed the process of making it very much
 
-[![Be the Change](/img/photography/beTheChange.png)](https://www.youtube.com/watch?v=16Z-D1U_rEQ)
+<a href="https://www.youtube.com/watch?v=16Z-D1U_rEQ" target="_blank"><img src="/img/photography/beTheChange.png"
+alt="Be the Change" width="240" height="180" border="10" /></a>
