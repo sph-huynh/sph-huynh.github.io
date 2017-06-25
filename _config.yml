@@ -10,22 +10,3 @@ description: > # "Just a place to document my work
 copyright: 'Copyright &copy; 2015 Sophia Huynh. All Rights Reserved.'
 credits: 'Credits: Landing Page <a href="http://ironsummitmedia.github.io/startbootstrap-landing-page"> Bootstrap</a>'
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: twitter
-    url: https://twitter.com/sphaech
-  - title: github
-    url: https://github.com/sph-huynh
-  - title: linkedin
-    url: https://linkedin.com/in/sphhuynh
