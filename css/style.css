@@ -45,15 +45,42 @@ body {
 
 
 .column {
-    float: left;
-    padding: 20px;
+    list-style-type: none;
+    align-items: left;
 
 }
 
 .row {
-  list-style-type: none;
+    list-style-type: none;
 
 }
+
+nav.vertical {
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+    nav.vertical > ul {
+        list-style-type: none;
+        width: 100px;
+    }
+        nav.vertical > ul > li {
+            display: block;
+            
+
+        }
+            nav.vertical > ul > li > a{
+                display: block;
+                height: 30px;
+                line-height: 50px;
+                border-bottom: 1px solid rgba(255,255,255,.1);
+                letter-spacing: .5rem;
+                text-transform: uppercase;
+                transition: all .1s ease;
+            }
+                nav.vertical > ul > li > a:hover {
+                    cursor: pointer;
+                }
 
 .ul {
   margin: 0;
@@ -66,6 +93,8 @@ li{
 
 .left {
     width: 50%;
+    float: left;
+    padding: 20px;
 }
 
 .right {
@@ -76,11 +105,11 @@ li{
 /*Social Media buttons*/
 .fa {
     padding: 8px;
-    font-size: 20px;
+    font-size: 30px;
     width: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 5px;
+    margin: 8px 4px;
     border-radius: 50%;
 }
 
@@ -109,6 +138,7 @@ Homepage styling
 .home-page {
     top: 30%;
     left: 5%;
+    color:#000000;
 }
 
 .title {
@@ -166,7 +196,7 @@ Media Queries
 /*Home page Video bg*/
 @media (max-width: 747px) {
     .fullscreen-bg {
-        background: url('../media/image-bg.png') center center / cover no-repeat;
+        background: url('../media/image-bg.jpg') center center / cover no-repeat;
     }
 
     .video-bg {
