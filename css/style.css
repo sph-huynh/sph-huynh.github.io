@@ -88,13 +88,13 @@ nav.vertical {
 
 li{
   float: left;
-  padding-right: 2%;
+  padding-right: 5%;
 }
 
 .left {
     width: 50%;
     float: left;
-    padding: 20px;
+    padding: 10px;
 }
 
 .right {
@@ -107,9 +107,10 @@ li{
     padding: 8px;
     font-size: 30px;
     width: 20px;
+    height: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 8px 4px;
+    margin: 8px;
     border-radius: 50%;
 }
 
@@ -130,15 +131,27 @@ li{
   color: white;
 }
 
+.fa-behance {
+    background: #0057ff;
+    color: white;
+}
+
 
 /*
 Homepage styling
 */
 
+
+
 .home-page {
     top: 30%;
     left: 5%;
     color:#000000;
+        /* border-width: 5px; */
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    opacity: 0.7;
 }
 
 .title {
@@ -146,20 +159,15 @@ Homepage styling
     margin-bottom: 24px;
 }
 
-.text {
-    padding-top: 20px;
-    margin-bottom: 24px;
 
-}
 
 
 .list-social-buttons {
     padding-left: 0;
+
 }
 
-.contact {
-    z-index: 3;
-}
+
 
 /*Video styling*/
 
