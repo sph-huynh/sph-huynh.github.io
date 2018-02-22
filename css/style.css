@@ -38,28 +38,18 @@ html {
 }
 
 li{
-  float: left;
-  padding-right: 50%;
+
 }
 
-a:link {
-    color: #547275;
-    text-decoration: none;
-}
 
-a:visited {
-    color: #756960;
-}
-
-a:hover {
-    color: #FFC193;
-}
-
-a:active {
-    color: #C2B8B1;
-}
 
 /*Social Media buttons*/
+.social-media-block {
+    padding: 3% 5% 3% 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .fa {
     padding: 8px;
     font-size: 30px;
@@ -69,6 +59,7 @@ a:active {
     text-decoration: none;
     margin: 8px;
     border-radius: 50%;
+    float: left;
 }
 
 .fa-twitter {
@@ -98,9 +89,18 @@ a:active {
     color: white;
 }
 
+.row {
+    list-style-type: none;
+}
+
+.list-social-buttons {
+    padding-top: 0;
+}
+
+
 
 /*
-Hoempage styling
+Left panel styling
 */
 .left-content-wrapper {
     z-index: 2;
@@ -141,7 +141,26 @@ Hoempage styling
     text-align: left;
 }
 
-.menu {
+.main-menu {
+    float: left;
+    padding-right: 50%;
+}
+
+a.main-menu:link {
+    color: #547275;
+    text-decoration: none;
+}
+
+a.main-menu:visited {
+    color: #756960;
+}
+
+a.main-menu:hover {
+    color: #FFC193;
+}
+
+a.main-menu:active {
+    color: #C2B8B1;
 }
 
 /*Video styling*/
@@ -165,10 +184,28 @@ Hoempage styling
 
 
 
+/* Media Queries */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.portfolio-area .portfolio-item {
+    width: 50%;
+}
+}
+@media only screen and (max-width: 767px) {
+.portfolio-area .portfolio-item {
+    height: auto;
+    width: 100%;
+}
+}
+
 /*
 Media Queries
 */
 
+@media screen and (min-width:1000px) and (min-height: 800px) {
+    .bio {
+        padding: 3% 10% 3% 8%;
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .bio {
@@ -189,7 +226,7 @@ Media Queries
         width: 100%;
         height: 40%;
         float: none;
-        display: inline-block;
+        display: list-item;
     }
 
     .right-content-wrapper {
@@ -198,6 +235,14 @@ Media Queries
         float: none;
         display: inline-block;
 
+    }
+
+    .main-menu {
+        margin: 0;
+    }
+
+    .fa {
+        float: none;
     }
 }
 
