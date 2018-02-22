@@ -224,155 +224,6 @@ a.main-menu:active {
 }
 
 
-
-/* Behance styling */
-
-.clearfix {
-    *zoom: 1;
-  }
-.clearfix:before,
-.clearfix:after {
-content: " ";
-display: table;
-}
-.clearfix:after {
-clear: both;
-}
-
-.portfolio-area {
-margin: 50px auto;
-margin: 5rem auto;
-max-width: 960px;
-max-width: 96rem;
-width: 100%;
-}
-.portfolio-area .portfolio-list {
-padding-left: 0;
-}
-.portfolio-area .portfolio-item {
-margin-bottom: 30px;
-margin-bottom: 3rem;
-height: 320px;
-height: 32rem;
-padding: 0 15px;
-padding: 0 1.5rem;
-float: left;
-list-style-type: none;
-width: 27%;
-}
-.portfolio-area .portfolio-content {
-text-align: center;
-}
-.portfolio-area .portfolio-image {
-border: 8px solid #fff;
-max-width: 100%;
-}
-.portfolio-area .portfolio-cover {
-cursor: -webkit-zoom-in;
-cursor: -moz-zoom-in;
-cursor: -zoom-in;
-width: 100%;
-}
-.portfolio-area .portfolio-title {
-font-size: 14px;
-font-size: 1.4rem;
-color: #557682;
-text-transform: capitalize;
-vertical-align: middle;
-width: 100%;
-}
-.portfolio-area .portfolio-fields {
-font-size: 12px;
-font-size: 1.2rem;
-color: #aeaeae;
-}
-.portfolio-area .portfolio-fields .field-list {
-padding: 0;
-}
-.portfolio-area .portfolio-fields .field-item {
-display: inline-block;
-}
-.portfolio-area .portfolio-fields .field-item:after {
-content: ' ,';
-}
-.portfolio-area .portfolio-fields .field-item:last-child:after {
-content: '';
-}
-
-.mfp-bg.animated {
-opacity: 0;
--webkit-transition: opacity 350ms ease-out;
--moz-transition: opacity 350ms ease-out;
--o-transition: opacity 350ms ease-out;
-transition: opacity 350ms ease-out;
-}
-.mfp-bg.mfp-ready.animated {
-opacity: 0.8;
-}
-.mfp-bg.mfp-removing.animated {
-opacity: 0;
-}
-.mfp-wrap.animated .mfp-content {
--webkit-animation-duration: 350ms;
--moz-animation-duration: 350ms;
--o-animation-duration: 350ms;
-animation-duration: 350ms;
-}
-.mfp-wrap.animated .mfp-content {
--webkit-animation-name: fadeInDown;
--moz-animation-name: fadeInDown;
--o-animation-name: fadeInDown;
-animation-name: fadeInDown;
-}
-.mfp-wrap.mfp-removing.animated .mfp-content {
--webkit-animation-name: fadeOutDown;
--moz-animation-name: fadeOutDown;
--o-animation-name: fadeOutDown;
-animation-name: fadeOutDown;
-}
-.mfp-wrap.animated .mfp-arrow {
--webkit-animation-duration: 350ms;
--moz-animation-duration: 350ms;
--o-animation-duration: 350ms;
-animation-duration: 350ms;
-}
-.mfp-wrap.animated .mfp-arrow-left {
--webkit-animation-name: fadeInRight;
--moz-animation-name: fadeInRight;
--o-animation-name: fadeInRight;
-animation-name: fadeInRight;
-}
-.mfp-wrap.mfp-removing.animated .mfp-arrow-left {
--webkit-animation-name: fadeOutLeft;
--moz-animation-name: fadeOutLeft;
--o-animation-name: fadeOutLeft;
-animation-name: fadeOutLeft;
-}
-.mfp-wrap.animated .mfp-arrow-right {
--webkit-animation-name: fadeInLeft;
--moz-animation-name: fadeInLeft;
--o-animation-name: fadeInLeft;
-animation-name: fadeInLeft;
-}
-.mfp-wrap.mfp-removing.animated .mfp-arrow-right {
--webkit-animation-name: fadeOutRight;
--moz-animation-name: fadeOutRight;
--o-animation-name: fadeOutRight;
-animation-name: fadeOutRight;
-}
-/* Media Queries */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-.portfolio-area .portfolio-item {
-    width: 50%;
-}
-}
-@media only screen and (max-width: 767px) {
-.portfolio-area .portfolio-item {
-    height: auto;
-    width: 100%;
-}
-}
-
 /* Right side text styling */
 
 .right-side-body-text {
@@ -449,14 +300,50 @@ Media Queries
     }
 }
 
+@media screen and (max-height: 1000px) and (max-height: 600px) {
+    .bio {
+        margin: 8% auto auto auto;
+    }
+
+    .intro-video {
+        z-index: 50;
+        width: 60%;
+        margin: 10% auto auto auto;
+    }
+}
+
 @media screen and (max-height: 750px) {
+    .intro-video {
+        margin: 23% auto auto auto;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .bio {
+        margin-top: 40%;
+    }
+
     .intro-video {
         margin: 15% auto auto auto;
     }
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 650px) {
+    .bio {
+        margin-top: 35%;
+    }
+
+    .intro-video {
+        margin: 12% auto auto auto;
+    }
+}
+
+@media screen and (max-width: 630px) and (max-height: 700px) {
     .intro-video {
         display: none;
+    }
+
+    .fa {
+        float: left;
     }
 }
