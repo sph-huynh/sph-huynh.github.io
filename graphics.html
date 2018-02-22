@@ -1,0 +1,41 @@
+---
+layout: homepage
+title: Sophia Huynh
+---
+<body>
+    <link rel="stylesheet" href="/css/colorbox.css">
+    <link rel="stylesheet" href="/css/jquery.behance.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+    if (!window.jQuery) {
+        document.write('<script src="/js/jquery-1.9.1.min.js"><\/script>');
+    }
+    </script>
+    <script src="/js/jquery.colorbox-min.js"></script>
+    <div class="right-side-body-text">
+            <div id="be-grid" class="group"></div>
+    </div>
+
+    <script src="/js/jquery.behance.js"></script>
+
+    <script>
+            $(document).ready(function() {
+
+        $('#be-grid').behance({
+        apiKey: 'MgjpM4ldjcBdgp5h4LRsfvHD1xzGMc9N',
+        user: 'sphhuynh206f',
+        sort: 'featured_date',
+        gridID: '#be-grid',
+        cssItem: 'be-item group',
+        cssTitle: 'project-title',
+        cssMore: 'button',
+        colorbox:  {
+            slideshow: false,
+            transition: 'none'
+        }
+        });
+        });
+
+    </script>
+</body>
+</html>
