@@ -211,6 +211,22 @@ a.main-menu:active {
     
 }
 
+.load-more {
+    border: none;
+    color: #756960;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+.load-more:hover {
+    color: #FFC193;
+}
+
+.load-more:focus {
+    outline: 0;
+}
+
 
 
 /* Behance styling */
